@@ -28,8 +28,10 @@ const Contact = () => {
               <Mail className="w-6 h-6 text-accent" />
             </div>
             <div>
-              <p className="text-sm text-muted-foreground">Email me</p>
-              <p className="text-lg font-semibold text-foreground">contact@exampleconstruction.com</p>
+<p className="text-sm text-muted-foreground">Email me</p>
+<p className="text-base sm:text-lg font-semibold text-foreground break-all sm:break-normal">
+  contact@exampleconstruction.com
+</p>
             </div>
           </a>
         </div>
